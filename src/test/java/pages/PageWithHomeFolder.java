@@ -13,19 +13,19 @@ import static com.codeborne.selenide.Selenide.*;
 public class PageWithHomeFolder {
 
     private final SelenideElement
-            closeBanner = $(".insider-banner-close-button.mv-icon-button--small.mv-icon-button--transparent.mv-icon-button--none.mv-button.mv-icon-button"), // закрыть рекламный баннер
-            cookieHome = $(".notification__button.mv-main-button--large.mv-main-button--primary.mv-button.mv-main-button"), // закрыть куки
+            closeBanner = $(".insider-banner-close-button.wv-icon-button--small.wv-icon-button--transparent.wv-icon-button--none.wv-button.wv-icon-button"), // закрыть рекламный баннер
+            cookieHome = $(".notification__button.wv-main-button--large.wv-main-button--primary.wv-button.wv-main-button"), // закрыть куки
             selectCity = $(".location-deny.link.link--blue"), // Выбрать другой город
             firstAppHeader = $(".app-header-top.app-header-columns"), // Первый заголовок
             secondAppHeader = $(".app-header-bottom.app-header-columns"), // Второй заголовок
-            openDirectory = $(".catalog-button.mv-main-button--large.mv-main-button--primary.mv-button.mv-main-button"), // Открытие контейнера с каталогом
+            openDirectory = $(".catalog-button.wv-main-button--large.wv-main-button--primary.wv-button.wv-main-button"), // Открытие контейнера с каталогом
             gridContainer = $(".left-menu"), // раскрывшийся контейнер с каталогом
-            closeDirectory = $(".catalog-button.mv-main-button--large.mv-main-button--primary.mv-button.mv-main-button"), // Закрытие контейнера с каталогом
+            closeDirectory = $(".catalog-button.wv-main-button--large.wv-main-button--primary.wv-button.wv-main-button"), // Закрытие контейнера с каталогом
             shoppingCart = $(".nav-tab.tab-cart"), // Значок корзины
             checkShoppingCart = $(".cart-empty__title"), // Проверка корзины после перехода в нее
             checkAuthorization = $(".cart-empty__button.cart-empty__button_fixed-width"), // Проверка кнопки авторизироваться
-            checkAuthorizationButton = $(".mv-main-button--large.mv-main-button--primary.mv-button.mv-main-button"),
-            checkAuthorizationButtons = $(".mv-main-button--large.mv-main-button--primary.mv-button.mv"),
+            checkAuthorizationButton = $(".wv-main-button--large.wv-main-button--primary.wv-button.wv-main-button"),
+            checkAuthorizationButtons = $(".wv-main-button--large.wv-main-button--primary.wv-button.wv"),
             checkIkonAuthorization = $(".login-form.ng-untouched.ng-pristine.ng-valid"),
             closeAuthorization = $(".login-form-top-nav__btn-icon"); // Кнопка закрытия авторизации
     private final ElementsCollection
@@ -35,7 +35,7 @@ public class PageWithHomeFolder {
 
     @Step("Открыть главную страницу")
     public PageWithHomeFolder openPage() {
-        open("https://www.mvideo.ru/");
+        open("https://wvideo.ru/");
         return this;
     }
 

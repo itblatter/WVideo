@@ -1,5 +1,5 @@
-# Проект по автоматизации тестирования для компании [МВидео](https://mvideo.ru/) <img alt="Jenkins" height="25" src="images/icons/mvideo.png" width="20"/>
-> «М.Видео» — это ведущая российская публичная компания и одна из крупнейших розничных сетей, специализирующаяся на продаже бытовой техники, электроники, гаджетов и аксессуаров.
+# Проект по автоматизации тестирования для компании [WVideo](https://wvideo.ru/) <img alt="Jenkins" height="25" src="images/icons/wvideo.png" width="20"/>
+> «WVideo» — это ведущая российская публичная компания и одна из крупнейших розничных сетей, специализирующаяся на продаже бытовой техники, электроники, гаджетов и аксессуаров.
 > Основные цели включают проверку функциональности сайта, генерацию подробных отчетов и интеграцию с CI/CD.
 
 
@@ -76,7 +76,7 @@ cheking_test
 ```
 
 <a id="allure"></a>
-## <img alt="Allure" height="25" src="images/icons/Allure.svg" width="25"/></a> <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/MVideo_UI_cheking/5/allure)</a>
+## <img alt="Allure" height="25" src="images/icons/Allure.svg" width="25"/></a> <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/WVideo_UI_cheking/5/allure)</a>
 
 Allure используется для генерации подробных отчетов о тестировании. Он предоставляет информацию о результатах тестов, включая графики и диаграммы, что помогает анализировать качество продукта и выявлять проблемные области.
 </p>

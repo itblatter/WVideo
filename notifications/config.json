@@ -1,11 +1,11 @@
 {
   "base": {
-    "project": "MVideo",
+    "project": "WVideo",
     "environment": "IT Blatter",
     "comment": "Tag @itblatter",
-    "reportLink": "http://localhost:8080/job/MVideo/",
+    "reportLink": "http://localhost:8080/job/WVideo/",
     "language": "ru",
-    "allureFolder": "C:/ProgramData/Jenkins/.jenkins/workspace/MVideo/allure-report",
+    "allureFolder": "C:/ProgramData/Jenkins/.jenkins/workspace/WVideo/allure-report",
     "enableChart": true
   },
   "telegram": {

@@ -24,7 +24,7 @@ public class TestBase {
         Configuration.timeout = 10000;
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager"; //стратегия загрузки, не дожидаемся полной загрузки
-        Configuration.baseUrl = "https://www.mvideo.ru/"; // выносим основной сайт
+        Configuration.baseUrl = "https://wvideo.ru/"; // выносим основной сайт
         Configuration.holdBrowserOpen = false;
         Configuration.browserCapabilities.setCapability("goog:chromeOptions", Map.of(
                 "args", List.of(

@@ -20,7 +20,7 @@ public class HomeFolderTests extends TestBase {
     @Tag("smoke")
     @Owner("Daniil Ruban")
     void homeFolderTest() {
-        pageWithHomeFolder.openPage() // Открыть сайт MVideo
+        pageWithHomeFolder.openPage() // Открыть сайт WVideo
                 .closeBanner() // Закрыть
                 .cookieHome() // Принять cookie
 
@@ -31,8 +31,8 @@ public class HomeFolderTests extends TestBase {
                 .firstAppHeader("Магазины")
                 .firstAppHeader("Установка и ремонт")
                 .firstAppHeader("Мобильное приложение")
-                .firstAppHeader("М.Комбо")
-                .firstAppHeader("М.Клик")
+                .firstAppHeader("W.Комбо")
+                .firstAppHeader("W.Клик")
                 .firstAppHeader("Войти в ЛК продавца")
                 .firstAppHeader("Стать продавцом")
 
